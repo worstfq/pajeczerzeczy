@@ -1,0 +1,20 @@
+# =========================================================
+#  Konfiguracja pluginu SpiderHunt
+#  Wartosci cooldownow podane sa w sekundach.
+#  Zmiany zaczna obowiazywac po restarcie serwera
+#  (bez potrzeby rekompilacji pluginu).
+# =========================================================
+
+messages:
+  # Prefix wiadomosci. Obsluguje format MiniMessage:
+  #   kolory nazwane: <red> <gray> <dark_purple> ...
+  #   kolory HEX:     <#6A0DAD>
+  #   pogrubienie:    <bold> ... </bold>
+  # Pamietaj o spacji na koncu, jesli chcesz odstep od tekstu.
+  prefix: "<dark_gray>[</dark_gray><#6A0DAD><bold>Łowy</bold></#6A0DAD><dark_gray>]</dark_gray> "
+
+spider_sword:
+  cooldown_seconds: 10
+
+spider_trap:
+  cooldown_seconds: 15
