@@ -1,0 +1,26 @@
+name: SpiderHunt
+version: 1.0.0
+main: me.beniomazi.spiderhunt.SpiderHuntPlugin
+api-version: '1.21'
+description: Kiel Arachny i Siec Usidlenia - lowy, sidla i pajeczyny.
+author: BenioMazi
+
+commands:
+  spidersword:
+    description: Zarzadzanie przedmiotem Kiel Arachny.
+    usage: /spidersword give <gracz>
+    permission: spidersword.give
+    permission-message: Nie masz uprawnien do tej komendy.
+  spidertrap:
+    description: Zarzadzanie przedmiotem Siec Usidlenia.
+    usage: /spidertrap give <gracz> [ilosc]
+    permission: spidertrap.give
+    permission-message: Nie masz uprawnien do tej komendy.
+
+permissions:
+  spidersword.give:
+    description: Pozwala wydawac Kiel Arachny.
+    default: op
+  spidertrap.give:
+    description: Pozwala wydawac Siec Usidlenia.
+    default: op
